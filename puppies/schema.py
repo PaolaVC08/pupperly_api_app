@@ -10,7 +10,7 @@ from graphene_django.filter import DjangoFilterConnectionField
 class PuppyType(DjangoObjectType):
     class Meta:
         model = Puppy
-        fields = ('id', 'name', 'breed', 'description', 'created_at', 'posted_by')
+     #   fields = ('id', 'name', 'breed', 'description', 'created_at', 'posted_by')
 
 class CountableConnectionBase(graphene.relay.Connection):
     class Meta:
